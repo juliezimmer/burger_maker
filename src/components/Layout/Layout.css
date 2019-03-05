@@ -1,3 +1,4 @@
+/* adds margin between top of burger and edge of viewport.  This file is imported in src/components/Layout/Layout.css  where the style is applied to the <main className= {classes.Content}> tag content. */
 .Content {
    margin-top: 16px;
 }

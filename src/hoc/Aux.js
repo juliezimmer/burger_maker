@@ -1,4 +1,4 @@
-// This HOC exists to wrap adjacent JSC elements in Layout.js
+// This HOC exists to wrap adjacent JSC elements in Layout.js or wherever it is imported.
 const aux = (props) => props.children;
 
 export default aux;
