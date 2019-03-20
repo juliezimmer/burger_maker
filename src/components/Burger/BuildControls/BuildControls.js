@@ -13,6 +13,8 @@ const controls = [
 // this loops through the controls array (above) using .map and puts the new array returned in an instance of BuildControl
 const buildControls = (props) => (
    <div className={classes.BuildControls}>
+      {/* The current price is passed in with props */}
+      <p>Current Price: <strong>{props.price.toFixed(2)}</strong></p>
       {controls.map(ctrl => (
          <BuildControl 
             key={ctrl.label} 
